@@ -9,7 +9,6 @@ public class UserRepository
 {
     public User getUser()
     {
-        //userRepository.getUser();
         User user = new User("Rahul", "Canada", 65, "MyPC/Images");
         return user;
     }
